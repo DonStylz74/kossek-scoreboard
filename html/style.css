@@ -11,8 +11,14 @@
     --ambulance-color: #FF8D8D;
     --ambulance-background: #B83D3D;
 
-    --mechanic-color: #FFE1B5;
-    --mechanic-background: #F2A634;
+    --mechanic-color: #b4a7d6;
+    --mechanic-background: #674ea7;
+
+    --cardealer-color: #bcbcbc;
+    --cardealer-background: #5b5b5b;
+
+    --taxi-color: #FFE1B5;
+    --taxi-background: #F2A634;
 }
 
 body, * {
@@ -108,6 +114,16 @@ body, * {
 .mechanic {
     color: var(--mechanic-color);
     background: var(--mechanic-background);
+}
+
+.cardealer {
+    color: var(--cardealer-color);
+    background: var(--cardealer-background);
+}
+
+.taxi {
+    color: var(--taxi-color);
+    background: var(--taxi-background);
 }
 
 .player-list {
